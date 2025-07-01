@@ -1,0 +1,115 @@
+/* Resetting default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+body {
+  background-color: #4833b0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container Styling */
+.container {
+  margin-left: 30%;
+  margin-top: 10%;
+  text-align: center;
+  background-color: #796fd4;
+  padding: 35px 20px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  width: 35%; /* Responsive width */
+  /* max-width: 500px; */
+
+}
+h1 {
+  margin-bottom: 17px;
+  font-size: 2.3em; /* Adjusted for responsiveness */
+}
+.back{
+  margin-top: 0%;
+  background-color: rgb(190, 194, 216);
+ height: 100vh;
+ padding-bottom: 0%;
+ padding-top: 0px;
+ height: 100dvw;
+}
+.span{
+  padding: 5px 19px ;
+  font-size: 19px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div{
+  padding: 12px 0px 13px 6px;
+  background-color: rgb(111, 111, 151);
+  height: 2%;
+  
+}
+p {
+  font-size: 1em;
+  margin-bottom: 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Input Field Styling */
+.input-field {
+  width: 100%; /* Full width for mobile */
+  max-width: 400px;
+  padding: 12px;
+  font-size: 1em;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+/* Button Styling */
+.punch-button {
+  padding: 12px 20px;
+  font-size: 1em; /* Adjusted font size for responsiveness */
+  background-color: #ffc107;
+  border: none;
+  border-radius: 50px;
+  color: #4833b0;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.punch-button:hover {
+  background-color: #ffa000;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  .punch-button {
+    font-size: 0.9em;
+  }
+}
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .input-field {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+}

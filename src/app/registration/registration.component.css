@@ -1,0 +1,56 @@
+.feild{
+    padding: 5px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 96%;
+}
+.button{
+    width: 83%;
+    padding: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+border-radius:20px;
+background-color: rgb(2, 150, 187);
+
+border-color: rgb(5, 187, 243);
+color: white;
+
+}
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .label{
+    color: red;
+    font-size: 10px;
+  }
+  .log{
+    font-size: 24px;
+    padding: 9px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: rgb(255, 96, 175);
+    color: white; */
+}
+.head{
+    width: 27%;
+      font-size: 17px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding: 10px;
+      font-weight: 540;
+  }
+  .mark{
+    padding: 7px;
+    width: 30%;
+height: 86%;
+ background-color: rgb(133, 220, 241);
+}
+.form{
+    /* background-color: #7c93a7; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Optionally center content horizontally */
+  
+}

@@ -1,0 +1,31 @@
+
+
+  <div class="back">
+   <div class="div">
+    <span class="span"> <a routerLink="/punchout" style="color: whitesmoke;"> Punch-Out Attendance</a></span>
+    <span class="span"> <a routerLink="/registration" style="color: whitesmoke;">  Add Attendance </a></span>
+    <span class="span"><a routerLink="/getall" style="color: whitesmoke;"> Students Attendance Record </a></span>
+    <span class="span"> <a routerLink="/log" style="color: whitesmoke;">Log-Out </a></span>
+   </div>
+
+
+  <div class="container" >
+    <h1>
+      Punch-In Attendance</h1>
+    <p>wellcome {{studentData?.name}}</p>
+    <form>
+      <input type="text" placeholder="Enter student name" class="input-field" [(ngModel)]="dataObj.name" name="name"/>
+      <button type="button" (click)="punchIn()" class="punch-button" > Punch In</button>
+      <div *ngIf="successMessage">
+        {{ successMessage }}
+      </div>
+      
+      <div *ngIf="errorMessage" >
+        {{ errorMessage }}
+      </div>
+     
+    </form>
+  </div>
+
+</div>
+

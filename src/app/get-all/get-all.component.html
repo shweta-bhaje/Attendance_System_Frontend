@@ -1,0 +1,27 @@
+<div class="back">
+<h1 align="center">Student Attendance</h1>
+<form>
+
+    <input class="add" type="button" (click)="add()" value="Add Registration"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input class="print" type="button" (click)="out()" value="Log-Out">
+
+</form>
+<table  class="table" cellspacing="0">
+    <tr >
+        <th class="head">Student ID</th> 
+        <th class="head">Student Name</th>
+        <th class="head">PunchIn Time </th>
+        <th class="head">PunchOut Time</th>
+         <th class="head">Date</th>
+    </tr>
+    <tr align="center" border-bottom="1px" *ngFor="let items of dataObj">
+        <td class="record">{{items.id}}</td>
+        <td class="record">{{items.name}}</td>
+        <td class="record" >{{items.punchInTime | date: 'hh:mm a'}}</td>
+        <td class="record">{{items.punchOutTime | date: 'hh:mm a'}}</td>
+        <td class="record">{{items.date}}</td>
+    </tr>
+</table>
+</div>
+ 

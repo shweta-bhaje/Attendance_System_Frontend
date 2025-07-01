@@ -1,0 +1,44 @@
+.head{
+    background-color: #02598b;
+    color: white;
+    padding: 7px;
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.table{
+    padding-top: 12px;
+    width: 100%;
+   border-color: white;
+}
+.back{
+    margin-top: 0%;
+    background-color: rgb(218, 236, 241);
+   height: 100vh;
+   padding-bottom: 0%;
+   padding-top: 6px;
+   height: 100dvw;
+}
+.record{
+    padding: 6px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #eee6f0; */
+
+ }
+.add{
+    padding: 7px;
+    background-color: rgb(253, 26, 185);
+    color: white;
+    width: 17%;
+    border-color: rgb(253, 130, 187);
+    margin-left: 62%;
+}
+.print{
+    padding: 7px;
+    background-color: rgb(14, 245, 33);
+    color: white;
+    /* margin-left: 40%; */
+    width: 17%;
+    border-color: rgb(22, 238, 94);
+}
+

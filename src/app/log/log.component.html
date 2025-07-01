@@ -1,0 +1,50 @@
+
+
+  
+
+<form class="form" >
+   
+  <table class="mark"  align="center" cellspacing="0">
+      <tbody>
+          <tr>
+              <td align="center" class="log">
+                <h2 >  Sign up</h2> 
+              </td>
+          </tr>
+          <tr>
+              <td class="head">Username : </td>
+
+          </tr>
+      <tr>
+         
+          <td><input class="feild" type="text" placeholder="Enter Name" [(ngModel)]="dataObj.name" name="name"/></td>
+      </tr>
+      <tr>
+          <td class="head">Password :</td>
+      </tr>
+      <tr>
+          
+          
+          <td><input class="feild" [type]="passwordType" placeholder="Enter Password" [(ngModel)]=" dataObj.password" name="password"/> </td>
+      </tr>
+      <tr align="left">
+          <td colspan="1" class="show"><input  type="checkbox" (change)="hideShowPassword()" />Show Password
+          </td>
+      </tr>
+      <tr>
+          <td colspan="2" align="center"><br><input class="button " type="submit" (click)="log()" class="button" value="Submit"/>
+          </td>
+      </tr>
+      <!-- <tr *ngIf="loginMessage">
+        <td align="center">
+          {{ loginMessage }}
+        </td>
+      </tr> -->
+      <tr>
+          <td colspan="2" align="center"><br><p >Not a members ?<a routerLink="/registration">Signup Now</a></p>
+          </td>
+      </tr>
+  </tbody>
+  </table>
+
+</form>

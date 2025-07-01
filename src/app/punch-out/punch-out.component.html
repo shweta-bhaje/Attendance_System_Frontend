@@ -1,0 +1,38 @@
+<!-- <div>
+    <h2>Punch Out Attendance</h2>
+    <input [(ngModel)]="dataObj.name" type="text" placeholder="Enter student name" name="name" />
+    <button (click)="punchOut()">Punch Out</button>
+    
+    <p>{{ message }}</p>
+  </div> -->
+  
+
+  <form class="form">
+    <table  cellspacing="7" class="table" >
+      <tbody>
+        <tr>
+          <td align="center">    <h1 style="font-size: 37px;">Punch-Out Attendance</h1>
+          </td>
+        </tr>
+        <tr>
+          <td align="center"><h4>Enter Your Name</h4>
+    <input class="feild" [(ngModel)]="dataObj.name" type="text" placeholder="Enter student name" name="name" />
+           
+          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <br>
+    <button class="button" (click)="punchOut()">Punch Out</button>
+    <p>{{ message }}</p>
+
+          </td>
+        </tr>
+      </tbody>
+ 
+  </table>
+
+  </form>
+
+
+  
